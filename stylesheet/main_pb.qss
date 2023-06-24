@@ -1,0 +1,16 @@
+QPushButton {
+    border: none;
+                           
+    color: white;
+    font-size: 32px;
+    font-family: fusion pixel proportional;
+
+    background-color: transparent;  
+    background-image: url(:/images/images/icons/buttons/ic_main_button_idle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+QPushButton:pressed {
+    background-image: url(:/images/images/icons/buttons/ic_main_button_hover.png);
+}
